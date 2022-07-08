@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "appConfig1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.AppConfiguration/configurationStores/myconfigurationconnectionstringapptest",
+      "type": "appConfig.azure",
+      "connectionId": "myconfiguratonconnectionstringapptest",
+      "dynamicId": null
+    },
+    "compute.function.windows1": {
+      "secretStore": null,
+      "group": "connections",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/imaging-test-function",
+      "type": "compute.function.windows.consumption",
+      "connectionId": null
+    }
+  }
+}
