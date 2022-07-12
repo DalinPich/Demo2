@@ -39,4 +39,4 @@ jobs:
           app-name: 'imaging-test-function'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BE1E885B25AF4D7EA0BE0C9ED17DF455 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E0E1D50DB79403DA35240BA113710B7 }}
