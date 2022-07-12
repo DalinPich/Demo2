@@ -39,4 +39,4 @@ jobs:
           app-name: 'DalinTestFunction'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F2C99990E96442C7A0E72BB88ED5C2C8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_93C4B1ED23FE47DDA4BA40AAC9D7F57F }}
